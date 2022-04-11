@@ -1,0 +1,67 @@
+body {
+  background-color: #333;
+  margin: 0px;
+  padding: 0px;
+}
+.containerGeral {
+  width: 100%;
+  margin: 0px;
+  height: 300px;
+  padding: 0px;
+  background-color: tomato !important;
+}
+
+ul {
+  flex-shrink: 0;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: 0.2s;
+  background-color: blue;
+}
+.classe {
+  background-color: red;
+}
+
+li div {
+  background-color: green;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+li div p {
+  background-color: purple;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav button {
+  background-color: transparent;
+  border: 2px#333 solid;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: wheat;
+  color: black;
+}
